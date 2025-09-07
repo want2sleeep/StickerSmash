@@ -1,36 +1,50 @@
-# Introduction
+# Welcome to your Expo app 👋
 
-This folder has some web codes made by myself. Althought they're very simple, I pay hard work on it and I improve fastly.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Content
+## Get started
 
-- Simple calendar   
-- Photo waterfall   
-- Horse race  
+1. Install dependencies
 
-### A simple calendar
+   ```bash
+   npm install
+   ```
 
-Made by origin CSS and JavaScript.   
-Funtions:    
-    1.Adapt monitor srceen.         
-    2.Switch year or month.      
-    3.Emphasize today.   
-    4.Distinguish the days before today and those after today.     
-    5.Show which day you choose by hovering your cursor.   
+2. Start the app
 
-### Photo waterfall   
+   ```bash
+   npx expo start
+   ```
 
-Made by origin CSS and JavaScript.   
-Funtions:    
-    1.Exhibit pictures.   
-    2.Each picture has the same width.     
-    3.View origin picture by clicking it and close the origin picture by again.      
+In the output, you'll find options to open the app in a
 
-### Horse race    
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-Made by origin CSS and JavaScript.   
-Funtions:    
-    1.Select the number of the horses going to race.    
-    2.Once a horse reaches the end, there's a rank added to the sidebar until the last horse reaches.     
-    3.Click the "Restart" to restart a new game.    
-    4.The results of games are random.    
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
